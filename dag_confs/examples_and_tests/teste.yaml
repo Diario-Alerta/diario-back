@@ -1,5 +1,5 @@
 dag:
-  id: basic_example_skip_null
+  id: teste
   description: DAG de teste
   search:
     terms:
@@ -8,4 +8,4 @@ dag:
     emails:
       - antoniocarlosjr007@hotmail.com
     subject: "Teste do Ro-dou"
-    skip_null: False
+skip_null: false

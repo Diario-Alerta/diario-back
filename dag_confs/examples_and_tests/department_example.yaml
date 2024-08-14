@@ -1,13 +1,15 @@
 dag:
-  id: department_example
+  id: teste2
   description: DAG de teste (filtro por departamento)
   search:
+    date: DIA
     terms:
-      - dados abertos
+      - portaria
     department:
-      - Ministério da Gestão e da Inovação em Serviços Públicos
-      - Ministério da Defesa
+      - Ministério da Agricultura, Pecuária e Abastecimento
   report:
     emails:
-      - destination@economia.gov.br
-    subject: "Teste do Ro-dou"
+      - acaj007.games@gmail.com
+      - antoniocarlosjr007@hotmail.com
+      - sidnei.cruz@agro.gov.br
+    subject: "Teste do diario alerta"

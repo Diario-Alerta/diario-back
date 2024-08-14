@@ -1,5 +1,5 @@
 dag:
-  id: all_parameters_example
+  id: testenovo
   description: DAG exemplo utilizando todos os demais parâmetros.
   tags:
     - projeto_a
@@ -10,9 +10,7 @@ dag:
   schedule: 0 8 * * MON-FRI
   search:
     terms:
-    - dados abertos
-    - governo aberto
-    - lei de acesso à informação
+    - 78.474.251/0001-03
     field: TUDO
     is_exact_search: True
     ignore_signature_match: True
@@ -24,7 +22,8 @@ dag:
     full_text: True
   report:
     emails:
-      - dest1@economia.gov.br
-      - dest2@economia.gov.br
+      - acaj007.games@gmail.com
+      - antoniocarlosjr007@hotmail.com
+      - arthurods37@gmail.com
     attach_csv: True
     subject: Assunto do Email
