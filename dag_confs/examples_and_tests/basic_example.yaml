@@ -9,5 +9,4 @@ dag:
   report:
     emails:
       - antoniocarlosjr007@hotmail.com
-      - sidnei.cruz@apoio.agro.gov.br
     subject: "Teste do diario alerta"

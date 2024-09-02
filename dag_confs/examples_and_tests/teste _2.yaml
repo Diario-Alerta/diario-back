@@ -1,14 +1,12 @@
 dag:
-  id: teste
+  id: testemains
   description: DAG de teste
   search:
+    force_rematch: False
     terms:
     - portaria
-    department:
-    - Ministério da Agricultura e Pecuária
-    force_rematch: True
   schedule: 0 8 * * MON-FRI
   report:
     emails:
       - antoniocarlosjr007@hotmail.com
-    subject: "Teste do Ro-dou1"
+    subject: "Teste do Ro-dou2"

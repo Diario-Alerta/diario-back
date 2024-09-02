@@ -6,10 +6,8 @@ dag:
     terms:
       - portaria
     department:
-      - Ministério da Agricultura, Pecuária e Abastecimento
+      - Ministério da Agricultura e Pecuária
   report:
     emails:
-      - acaj007.games@gmail.com
       - antoniocarlosjr007@hotmail.com
-      - sidnei.cruz@agro.gov.br
     subject: "Teste do diario alerta"
