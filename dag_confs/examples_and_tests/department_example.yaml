@@ -2,12 +2,13 @@ dag:
   id: teste2
   description: DAG de teste (filtro por departamento)
   search:
-    date: DIA
     terms:
-      - portaria
+    - portaria
     department:
-      - Ministério da Agricultura e Pecuária
+    - Ministério da Agricultura e Pecuária
+    force_rematch: True
+  schedule: 0 8 * * MON-FRI
   report:
     emails:
       - antoniocarlosjr007@hotmail.com
-    subject: "Teste do diario alerta"
+    subject: "Teste do diario alerta222"

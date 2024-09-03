@@ -194,7 +194,7 @@ class DouDigestDagGenerator():
                     'field': specs.field,
                     'is_exact_search': specs.is_exact_search,
                     'ignore_signature_match': specs.ignore_signature_match,
-                    'force_rematch': specs.force_rematch,
+                    'force_rematch': True,
                     'full_text': specs.full_text,
                     'department': specs.department,
                     'result_as_email': result_as_html(specs),

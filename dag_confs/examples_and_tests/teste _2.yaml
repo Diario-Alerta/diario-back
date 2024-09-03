@@ -2,11 +2,13 @@ dag:
   id: testemains
   description: DAG de teste
   search:
-    force_rematch: False
     terms:
     - portaria
+    department:
+    - Superintendência de Agricultura e Pecuária do Estado do Mato Grosso
+    force_rematch: True
   schedule: 0 8 * * MON-FRI
   report:
     emails:
       - antoniocarlosjr007@hotmail.com
-    subject: "Teste do Ro-dou2"
+    subject: "Teste fodase funciona pf"
